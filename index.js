@@ -4,6 +4,7 @@ const callbackMiddleWareInit = require('./callback')
 const oauthProvider = process.env.OAUTH_PROVIDER || 'github'
 const loginAuthTarget = process.env.AUTH_TARGET || '_self'
 
+
 const oauth2 = simpleOauthModule.create({
   client: {
     id: process.env.OAUTH_CLIENT_ID,
