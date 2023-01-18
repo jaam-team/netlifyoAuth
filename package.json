@@ -5,7 +5,7 @@
     "node": ">=7.x"
   },
   "description": "netlify oauth github client sending token in form as netlify service itself",
-  "repository": "https://github.com/vencax/netlify-cms-github-oauth-provider",
+  "repository": "https://github.com/jaam-team/netlifyoAuth",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
